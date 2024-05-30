@@ -6,6 +6,13 @@ Building locally means we can trust the thing much more than stuff downloaded by
 
 Additionally because we are building from scratch this theoretically should work on any platform debian runs on
 
+## to do first for kylin v10
+```
+cp /usr/share/debootstrap/scripts/v101 /usr/share/debootstrap/scripts/10.1
+
+./local-debian.sh kylin
+```
+
 ### Manually
 
 This should be as simple as passing an argument (release) that is equal to the distro of debian you want e.g.
